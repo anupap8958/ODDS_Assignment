@@ -103,6 +103,7 @@ public class reverseResult {
             System.out.print("Enter your number : ");
             int input = keyboard.nextInt();
             if (input < 0) {
+                System.out.println("Good Bye~~");
                 break;
             } else {
                 functionA(input);
